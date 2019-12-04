@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  wiscoipsum:
-    image: calinmm7registry.azurecr.io/wiscoipsum:v1.0.0
-    build:
-      context: .
-      dockerfile: wiscoipsum\Dockerfile
